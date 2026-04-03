@@ -66,4 +66,4 @@ localStorage.setItem("user",JSON.stringify(user));
 
 //reterive objects;
 var retrievedUser = localStorage.getItem("user");
-console.log(JSON.parse(retrievedUser)); 
+console.log(JSON.parse(retrievedUser));    
