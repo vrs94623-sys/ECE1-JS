@@ -62,6 +62,8 @@ localStorage.removeItem("name");
 
 // store object;
 var user = {name:"jeet",age:50};
-localStorage.setitems(user,JSON.stringfly(user));
+localStorage.setItem("user",JSON.stringify(user));   
 
 //reterive objects;
+var retrievedUser = localStorage.getItem("user");
+console.log(JSON.parse(retrievedUser));
